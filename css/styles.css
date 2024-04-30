@@ -1,40 +1,96 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+/* Basic Reset */
+body, h1, h2, p, ul, li, nav, section, header, footer {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-header {
+
+body {
+    font-family: 'Source Serif Pro', serif;
+    line-height: 1.6;
+    background-color: #f9ece3;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: stretch;
+}
+
+
+
+header, footer {
     background: #333;
     color: #fff;
-    padding: 10px 20px;
+    padding: 20px;
+    width: 100%;
     text-align: center;
 }
+
 nav {
-    display: flex;
-    justify-content: center;
-    background: #444;
-    padding: 10px 0;
+    margin: 20px 0;
+    font-size: 1.2em;
 }
+
 nav a {
-    color: white;
-    padding: 10px 20px;
+    color: #333;
+    padding: 8px 16px;
     text-decoration: none;
     margin: 0 10px;
 }
-nav a:hover {
-    background: #555;
-}
-section {
-    padding: 20px;
-    margin: 0 10px;
-    background: #f4f4f4;
-}
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #333;
-    color: white;
+
+nav a:hover, nav a:focus {
+    color: #555;
+    background-color: transparent;
 }
 
-/* Additional styling can be added here as needed */
+section {
+    /* background: #ffffff; */
+    padding: 40px;
+    margin: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 6px rgba(0,0,0,0.1); */
+    width: 80%;
+    max-width: 960px;
+}
+
+.section-content {
+    width: 100%; /* Use the full section width for content */
+}
+
+footer {
+    margin-top: auto;
+    width: 100%;
+}
+
+.project {
+    display: flex;
+    flex-direction: row; /* Ensures side-by-side arrangement */
+    align-items: center; /* Align items at the start of the flex container */
+    margin-bottom: 60px; /* Increased space between projects */
+    background-color: #fff6ef;
+    padding: 20px;
+    /* border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); */
+}
+
+.project-image {
+    width: 40%;
+    max-width: 400px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.project-text {
+    width: 60%;
+    flex-grow: 1; /* Allows the text section to fill any remaining space */
+}
+
+.project-text h3 {
+    margin-top: 0;
+}
+
+.project p {
+    text-align: justify;
+}
