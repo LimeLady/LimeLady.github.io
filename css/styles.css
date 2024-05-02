@@ -94,3 +94,16 @@ footer {
 .project p {
     text-align: justify;
 }
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+}
+h1 {
+    color: #333;
+}
+#countdown {
+    font-size: 24px;
+    color: #ff4500;
+}
