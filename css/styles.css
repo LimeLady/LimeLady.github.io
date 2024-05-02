@@ -94,3 +94,63 @@ footer {
 .project p {
     text-align: justify;
 }
+
+#partners {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px 0;
+}
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    max-width: 100%; /* Adjust based on the desired visible area */
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.3s ease;
+    will-change: transform;
+}
+
+.slide {
+    flex: 0 0 150px; /* Each slide has a fixed flex-basis of 150px */
+    width: 150px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide img {
+    width: 100%; /* Images should fit their containers */
+    display: block;
+}
+
+.slide-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ddd;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}
+
+.logo {
+    max-width: 100px; /* Set a max-width for each logo */
+    margin: 10px; /* Add some space around each logo */
+    height: auto; /* Maintain aspect ratio */
+    flex-shrink: 0; /* Prevent logos from shrinking */
+}
