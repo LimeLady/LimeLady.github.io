@@ -25,3 +25,6 @@ document.addEventListener("DOMContentLoaded", function() {
     document.querySelector('.left-arrow').addEventListener('click', moveLeft);
 });
 
+document.querySelector('.project-image').addEventListener('click', function() {
+    this.classList.toggle('zoomed');
+});

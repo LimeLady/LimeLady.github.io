@@ -7,25 +7,28 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="css/styles.css" version="2">
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="images\Projects\Dashboard screenshot 2.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" type="image/png" href="images/icon.png">
 </head>
 
 <body>
     <header>
-        <h1>Portfolio</h1>
+        <h1>Elise Mertens</h1>
+        <p>Master of Science || Freelance Data Scientist </p>
     </header>
     <nav>
         <a href="#portfolio">Portfolio</a>
+        <a href="#partners">Projects</a>
         <a href="#about">About Me</a>
         <a href="#contact">Contact</a>
     </nav>
+
     <section id="portfolio">
-        <!-- <h2>Portfolio</h2> -->
         <div class="section-content">
             <div class="project">
-                <img src="https://via.placeholder.com/400x300" alt="Placeholder Image" class="project-image">
+                <img src="images/projects/Dashboard screenshot.jpg" alt="Placeholder Image" class="project-image">
                 <div class="project-text">
-                    <h3>Project Title 1</h3>
+                    <h3>Dashboarding & Analytics</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus
                         tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Lorem ipsum dolor sit amet
                         consectetur adipisicing elit. Quis velit totam magni dolorem, ipsum nulla fugiat dolorum
@@ -37,9 +40,9 @@
                 </div>
             </div>
             <div class="project">
-                <img src="https://via.placeholder.com/400x300" alt="Placeholder Image" class="project-image">
+                <img src="https://via.placeholder.com/175x150?text=Company+2" alt="Placeholder Image" class="project-image">
                 <div class="project-text">
-                    <h3>Project Title 2</h3>
+                    <h3>Research & Theses</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus
                         tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
                     <p>Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec
@@ -47,7 +50,7 @@
                 </div>
             </div>
             <div class="project">
-                <img src="https://via.placeholder.com/400x300" alt="Placeholder Image" class="project-image">
+                <img src="https://via.placeholder.com/175x150?text=Company+2" alt="Placeholder Image" class="project-image">
                 <div class="project-text">
                     <h3>Project Title 3</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus
@@ -59,36 +62,89 @@
         </div>
     </section>
 
-    <h2>Companies I've Worked With</h2>
+    <h2>Projects with companies</h2>
+    <p>Here are some of the projects I have worked on with various companies.</p>
     <section id="partners">
-        <div class="slider-container">
-            <div class="slider">
-                <div class="slide"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Logo-pwc.png" alt="Company 1 Logo" class="logo"></div>
-                <div class="slide"><img src="https://via.placeholder.com/150x100?text=Company+2" alt="Company 2 Logo" class="logo"></div>
-                <div class="slide"><img src="https://via.placeholder.com/150x100?text=Company+3" alt="Company 3 Logo" class="logo"></div>
-                <div class="slide"><img src="https://via.placeholder.com/150x100?text=Company+4" alt="Company 4 Logo" class="logo"></div>
-                <div class="slide"><img src="https://via.placeholder.com/150x100?text=Company+5" alt="Company 5 Logo" class="logo"></div>
-                <div class="slide"><img src="https://via.placeholder.com/150x100?text=Company+6" alt="Company 6 Logo" class="logo"></div>
-                <div class="slide"><img src="https://via.placeholder.com/150x100?text=Company+7" alt="Company 7 Logo" class="logo"></div>
-                
+        <div class="grid-container">
+            <div class="grid-row">
+                <div class="grid-item">
+                    <div class="hover-container">
+                        <img src="https://media.licdn.com/dms/image/D4D0BAQE4eVW0APsNEA/company-logo_200_200/0/1688753383578/pwc_argentina_logo?e=2147483647&v=beta&t=oUQEc4SjkuvQ1l1HGpfdnSnQMN6VpofL_xw97Ib2238" alt="Image 1">
+                        <span class="hover-text">A short text describing the project. It should not be too long!</span>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="hover-container">
+                        <img src="https://www.tno.nl/publish/pages/5604/tno-logo-1484x835_003_.jpg" alt="Image 1">
+                        <span class="hover-text">A short text describing the project. It should not be too long!</span>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="hover-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUYsjXq9ESLm02-XuWkJjgurxpBhB_AnPXWOFi5zDl&s" alt="Image 1">
+                        <span class="hover-text">A short text describing the project. It should not be too long!</span>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="hover-container">
+                        <img src="https://store-images.s-microsoft.com/image/apps.32100.6c416f1a-9bea-48fd-b679-19d87dbcf2dc.a9fe40ac-149a-47bd-b809-b902c2965fa8.64e32619-729e-41ee-bcb3-df3a370f10f3" alt="Image 1">
+                        <span class="hover-text">A short text describing the project. It should not be too long!</span>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="hover-container">
+                        <img src="https://pbs.twimg.com/profile_images/1007553274982141952/BWs54ElX_400x400.jpg" alt="Image 1">
+                        <span class="hover-text">A short text describing the project. It should not be too long!</span>
+                    </div>
+                </div>
             </div>
-            <button class="slide-arrow left-arrow">&lt;</button>
-            <button class="slide-arrow right-arrow">&gt;</button>
+            <div class="grid-row">
+                <div class="grid-item">
+                    <div class="hover-container">
+                        <img src="https://asset.brandfetch.io/id_divbiSf/idb3C9dFED.png" alt="Image 1">
+                        <span class="hover-text">A short text describing the project. It should not be too long!</span>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="hover-container">
+                        <img src="https://assets-global.website-files.com/613e6adaff6479cdd68d69f2/613e6deec3defc75502c0a34_exsell.svg" alt="Image 1">
+                        <span class="hover-text">A short text describing the project. It should not be too long!</span>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="hover-container">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/GroupM_Hero_Logo_RGB_png.png" alt="Image 1">
+                        <span class="hover-text">A short text describing the project. It should not be too long!</span>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="hover-container">
+                        <img src="https://www.daantheeuwescentrum.nl/wp-content/uploads/2021/05/WT-DTC-logo-crop.jpg" alt="Image 1">
+                        <span class="hover-text">A short text describing the project. It should not be too long!</span>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="hover-container">
+                        <img id="smallerImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo_ZKibMh1XNH9-8ac7RjP4HKL-Nf_nMFl6A&s" alt="Image 1">
+                        <span class="hover-text">A short text describing the project. It should not be too long!</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    
-    
-    
 
-
+    <h2>About me</h2>
     <section id="about">
-        <h2>About Me</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias perspiciatis soluta itaque vitae ipsa, officia
-            sunt sit reprehenderit numquam magnam iusto distinctio nulla cumque. Exercitationem quae repellat aut
-            possimus eaque.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolorum cumque, officia ea sunt quisquam,
-            odit eum, architecto voluptatem praesentium repellat nam. Tenetur at ex fugiat quasi, ipsum quos sed.</p>
+        <div class="section-content" id="about">
+            <img src="images/about_me_image.jpg" alt="Elise Mertens" class="profile-image">
+            <p>Hi! I'm Elise Mertens, a web developer based in Buenos Aires, Argentina. I have a passion for web
+                development and love to create websites that are visually appealing and user-friendly. I have experience
+                working with HTML, CSS, JavaScript, and WordPress. I am always looking to expand my skill set and learn
+                new technologies. When I'm not coding, you can find me exploring the city, trying new restaurants, or
+                spending time with my friends and family.</p>
+        </div>
     </section>
+
     <section id="contact">
         <h2>Contact</h2>
         <p>Email me at: <a href="mailto:mertens1elise@gmail.com">mertens1elise@gmail.com</a></p>
