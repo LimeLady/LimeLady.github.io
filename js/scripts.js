@@ -1,5 +1,5 @@
 function countdown() {
-    var dueDate = new Date("2024-05-06T00:00:00").getTime();
+    var dueDate = new Date("2024-05-06T12:00:00").getTime();
     var x = setInterval(function() {
         var now = new Date().getTime();
         var distance = dueDate - now;
