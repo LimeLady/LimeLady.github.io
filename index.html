@@ -22,34 +22,51 @@
         <a href="#about">About Me</a>
         <a href="#contact">Contact</a>
     </nav>
-    <section id="welcome">
-        <p><em>Welcome to my website!</em> I'm Elise Mertens, a web developer based in Buenos Aires, Argentina. I have a
-            passion for web development and love to create visually appealing and user-friendly websites. Here, you
-            can explore my portfolio, learn about my projects, and get in touch with me. Feel free to browse around
-            and discover the work I've done. Enjoy your visit!</p>
+    <!-- <section id="welcome">
+        <p><em> Welcome! I'm Elise Mertens, a Data Scientist based in Buenos Aires, Argentina. Here,
+                you
+                can explore some of my work, learn about company projects I've done, and get in touch with me. Enjoy
+                your
+                visit!</em></p>
     </section>
 
-    <h2>Portfolio</h2>
-    <p>Here are some of the projects I have worked on during my studies and professional career.</p>
+    <h2 id="portfolio">Portfolio</h2>
+    <p>Here are some highlights of the projects I have worked on during my studies and professional career.</p> -->
     <section id="portfolio">
 
         <div class="section-content">
             <div class="project">
-                <img src="images/projects/Dashboard screenshot 2.jpg" alt="Placeholder Image" class="project-image">
+                <div class="carousel">
+                    <button class="arrow left-arrow"><i class="fas fa-arrow-left"></i></button>
+                    <div class="image-container">
+                        <img src="images/projects/Dashboard screenshot 2.jpg" alt="Placeholder Image"
+                            class="project-image">
+                        <div class="magnify-icon"><i class="fas fa-search magnify-icon"></i></div>
+                    </div>
+                    <button class="arrow right-arrow"><i class="fas fa-arrow-right"></i></button>
+                </div>
                 <div class="project-text">
-                    <h3>Dashboarding & Analytics</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus
-                        tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Quis velit totam magni dolorem, ipsum nulla fugiat dolorum
-                        repudiandae vero, voluptate quae porro voluptatum. Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Harum dolores ipsa eos vel recusandae omnis aspernatur! Excepturi nemo nobis
-                        illo dignissimos, ipsa eius, eos vel deserunt magnam esse dolore impedit. Lorem ipsum dolor sit
-                        amet consectetur, adipisicing elit. Animi quisquam officia aperiam amet sunt labore vel eveniet
-                        quos facilis adipisci deleniti neque perspiciatis laudantium iusto fugit, molestiae, harum
-                        suscipit tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio numquam
-                        doloribus, maxime similique reiciendis, quasi ab, dolor cumque molestiae quibusdam rerum quam
-                        eaque vero quos beatae vel quo est iusto?</p>
-                    <br>
+                    <h3>Data Analytics & Dashboarding</h3>
+                    <p>
+                        One of the projects I am most proud of is the Google Sheets and Looker Studio integration I did
+                        for Kirkman Company.
+                        By connecting the API of their CRM and ERP systems (AFAS & Hubspot) to Looker Studio using Apps
+                        Scripts, I was able to create a dashboard that gives realtime insights into their project
+                        planning and financials as well as employee
+                        performance. Whereas I frequently work in Python and R for data manipulation, this project
+                        involved complex data connections and transformation within the dashboard using SQL. It also
+                        involved thorough communication with multiple stakeholders to understand their needs and KPIs.
+                        <br><br>
+                        Another project I am proud of is the Tableau dashboard I created during my Master's at the UvA
+                        for TNO.
+                        Together with a team of 4, we analyzed and modeled location data and Tweets from Black Lives
+                        Matter
+                        demonstrations in the US. We used NLP techniques to analyze the sentiment of the tweets and
+                        created
+                        a dashboard that visualizes the interaction and sentiment and location of the tweets. This
+                        project
+                        was complex in the large amount of data and in correctly visualizing the modeled clusters.
+                    </p>
                 </div>
 
             </div>
@@ -57,28 +74,49 @@
                 <img src="images/Projects/thesis_image.png" alt="Placeholder Image" class="project-image">
                 <div class="project-text">
                     <h3>Research & Theses</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus
-                        tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
-                    <p>Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec
-                        nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.</p>
+                    <p>
+                        I completed two Master’s theses in Data Science, focusing on distinct but innovative topics. The
+                        first, at the Daan Theeuwes Center for Neurorehabilitation, involved modeling recovery
+                        trajectories
+                        in neurorehabilitation using Dynamic Time Warping to effectively cluster patient subgroups. This
+                        research has potential implications for precision medicine, paving the way for its application
+                        in
+                        larger patient populations. My second thesis, completed during an internship at GroupM,
+                        addressed
+                        the challenge of social biases in AI-driven image generation. Through a user-centric study, I
+                        evaluated the effectiveness of gender bias mitigation in these systems within an advertising
+                        context, finding that the utility of these systems not only depends on the diversity and quality
+                        of
+                        the images produced but also on the varied backgrounds and expectations of users. This work
+                        emphasizes the critical role of incorporating diverse user perceptions in the design and
+                        evaluation
+                        of AI systems, particularly in marketing applications.
+                    </p>
                 </div>
             </div>
             <div class="project">
                 <img src="https://media.licdn.com/dms/image/C5622AQFePiL9eZGWfQ/feedshare-shrink_2048_1536/0/1627752174664?e=1717632000&v=beta&t=3alQmYi87u6G-743ZMormepSQJ9nBenu5CtbE6FC4GM"
                     alt="Placeholder Image" class="project-image">
                 <div class="project-text">
-                    <h3>Project Title 3</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum cum fuga nihil in doloremque. Non
-                        explicabo dolore, rem dolores sit nisi. Odit necessitatibus consectetur qui, esse amet atque
-                        nulla eos. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, odit beatae! A
-                        saepe, consequuntur et iure ea, perferendis explicabo minus quas doloribus debitis repellat
-                        dicta minima, veritatis impedit numquam optio?</p>
+                    <h3>Consultancy & Extracurriculars</h3>
+                    <p>During my studies I have been actively engaged in the student community and extracurriculars.
+
+                        One of the highlights of my professional portfolio is the consultancy project I undertook for
+                        PwC during the Netherlands Asia Honours Summer School. Tasked with exploring how PwC Netherlands
+                        could leverage technological advancements in China to enhance digital engagement with both
+                        existing and potential Chinese clients, our team delved into an intensive curriculum that
+                        included lectures, workshops, and virtual company visits—adapted online due to COVID-19
+                        restrictions. Despite the geographical constraints, the collaboration with fellow students and
+                        company representatives was highly productive and enriching. I am particularly proud of the
+                        innovative strategies we developed and the tangible outcomes we achieved within the compressed
+                        timeframe, which significantly enhanced our client's digital relationship strategies.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <h2>Projects with companies</h2>
+    <h2 id="partners">Projects with companies</h2>
     <p>Here are some of the projects I have worked on with various companies.</p>
     <section id="partners">
         <div class="grid-container">
@@ -87,39 +125,50 @@
                     <div class="hover-container">
                         <img src="https://media.licdn.com/dms/image/D4D0BAQE4eVW0APsNEA/company-logo_200_200/0/1688753383578/pwc_argentina_logo?e=2147483647&v=beta&t=oUQEc4SjkuvQ1l1HGpfdnSnQMN6VpofL_xw97Ib2238"
                             alt="Image 1">
-                        <span class="hover-text">A short text describing the project. It should not be too
-                            long!</span>
+                        <span class="hover-text">
+                            As part of the NAHSS, a group consultancy project on how to utilize Chinese
+                            technological advancements to boost digital engagement with existing and potential Chinese
+                            clients. </span>
+                        </span>
                     </div>
                 </div>
                 <div class="grid-item">
                     <div class="hover-container">
                         <img src="https://www.tno.nl/publish/pages/5604/tno-logo-1484x835_003_.jpg" alt="Image 1">
-                        <span class="hover-text">A short text describing the project. It should not be too
-                            long!</span>
+                        <span class="hover-text"> University project on modeling and visualizing the relationship
+                            between Black Lives Matter tweets and protest violence, involving Big Data, NLP, Clustering,
+                            and
+                            Tableau.</span>
                     </div>
                 </div>
                 <div class="grid-item">
                     <div class="hover-container">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUYsjXq9ESLm02-XuWkJjgurxpBhB_AnPXWOFi5zDl&s"
                             alt="Image 1">
-                        <span class="hover-text">A short text describing the project. It should not be too
-                            long!</span>
+                        <span class="hover-text"> Contracted to explore correlations and distributions in clinical trial
+                            data about grafts for dialysis.
+                            Involved data cleaning, exploration, modeling and visualisation through Python and
+                            Excel.</span>
                     </div>
                 </div>
                 <div class="grid-item">
                     <div class="hover-container">
                         <img src="https://store-images.s-microsoft.com/image/apps.32100.6c416f1a-9bea-48fd-b679-19d87dbcf2dc.a9fe40ac-149a-47bd-b809-b902c2965fa8.64e32619-729e-41ee-bcb3-df3a370f10f3"
                             alt="Image 1">
-                        <span class="hover-text">A short text describing the project. It should not be too
-                            long!</span>
+                        <span class="hover-text"> Internship involving data of VR Headsets for medical purposes.
+                            Looked into database solutions including FireBase and BigQuery and visualized data using
+                            Python and Tableau.
+                        </span>
                     </div>
                 </div>
                 <div class="grid-item">
                     <div class="hover-container">
                         <img src="https://pbs.twimg.com/profile_images/1007553274982141952/BWs54ElX_400x400.jpg"
                             alt="Image 1">
-                        <span class="hover-text">A short text describing the project. It should not be too
-                            long!</span>
+                        <span class="hover-text">
+                            Contracted to integrate Google Sheets and Looker Studio, creating a real-time
+                            dashboard from their CRM and ERP systems to monitor project metrics and employee
+                            performance. </span>
                     </div>
                 </div>
             </div>
@@ -127,32 +176,38 @@
                 <div class="grid-item">
                     <div class="hover-container">
                         <img src="https://asset.brandfetch.io/id_divbiSf/idb3C9dFED.png" alt="Image 1">
-                        <span class="hover-text">A short text describing the project. It should not be too
-                            long!</span>
+                        <span class="hover-text">
+
+                            In a Data Consultancy course, my team built a case coverage optimization tool, automating
+                            tasks to boost efficiency and create a transparent, user-friendly predictive
+                            application.</span>
                     </div>
                 </div>
                 <div class="grid-item">
                     <div class="hover-container">
                         <img src="https://assets-global.website-files.com/613e6adaff6479cdd68d69f2/613e6deec3defc75502c0a34_exsell.svg"
                             alt="Image 1">
-                        <span class="hover-text">A short text describing the project. It should not be too
-                            long!</span>
+                        <span class="hover-text"> In a Causal Inference course, I used Multi-Armed Bandits to design a
+                            learning system that identifies the next best product offers for cross-selling.
+                        </span>
                     </div>
                 </div>
                 <div class="grid-item">
                     <div class="hover-container">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/GroupM_Hero_Logo_RGB_png.png"
                             alt="Image 1">
-                        <span class="hover-text">A short text describing the project. It should not be too
-                            long!</span>
+                        <span class="hover-text"> As part of the Data Science team looking into a Bayesian Marketing Mix
+                            Models and the impact of Image Generation for marketing campaigns. </span>
                     </div>
                 </div>
                 <div class="grid-item">
                     <div class="hover-container">
                         <img src="https://www.daantheeuwescentrum.nl/wp-content/uploads/2021/05/WT-DTC-logo-crop.jpg"
                             alt="Image 1">
-                        <span class="hover-text">A short text describing the project. It should not be too
-                            long!</span>
+                        <span class="hover-text">
+                            For my thesis here I modeled recovery trajectories using
+                            Dynamic Time Warping, clustering patient subgroups and advancing precision medicine
+                            applications.</span>
                     </div>
                 </div>
                 <div class="grid-item">
@@ -160,8 +215,8 @@
                         <img id="smallerImage"
                             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo_ZKibMh1XNH9-8ac7RjP4HKL-Nf_nMFl6A&s"
                             alt="Image 1">
-                        <span class="hover-text">A short text describing the project. It should not be too
-                            long!</span>
+                        <span class="hover-text">For this start-up, I identified and implemented market opportunities
+                            improving their tourism recommender app.</span>
                     </div>
                 </div>
             </div>
@@ -172,14 +227,24 @@
     <section id="about">
         <div class="section-content" id="about">
             <img src="images/about_me_image.jpg" alt="Elise Mertens" class="profile-image">
-            <p>Hi! I'm Elise Mertens, a web developer based in Buenos Aires, Argentina. I have a passion for web
-                development and love to create websites that are visually appealing and user-friendly. I have
-                experience
-                working with HTML, CSS, JavaScript, and WordPress. I am always looking to expand my skill set and
-                learn
-                new technologies. When I'm not coding, you can find me exploring the city, trying new restaurants,
-                or
-                spending time with my friends and family.</p>
+            <p>Hi! I'm Elise, a Data Science & Analytics MSc currently living in Buenos Aires,
+                Argentina. Although I am originally from the Netherlands, after an intercambio
+                with Instituto Tecnológico de Buenos Aires (ITBA), I decided to live and work here the coming period in
+                my life.
+                I am passionate about using data to drive business decisions and solve complex problems,
+                and have a strong academic background ranging from hard skills like Statistics, Data Mining, Data
+                Engineering, NLP and Machine Learning,
+                to soft skills like consulting, entrepreneurship and team work. I love that this background allows me to
+                provide value in any sector!
+                I am always looking for new challenges and opportunities to explore, learn and grow. So when I am
+                not working, you can find me exploring the city, sitting in the sun eating soup, learning Spanish,
+                attending trivia nights, or riding horses.
+
+
+
+
+            </p>
+            </p>
         </div>
     </section>
 
@@ -189,7 +254,7 @@
         <p>Connect with me on <a href="https://www.linkedin.com/in/elisemertens" target="_blank">LinkedIn</a></p>
     </section>
     <footer>
-        <p>Copyright © 2024 My Portfolio</p>
+        <p>Copyright © 2024 Elise Mertens</p>
     </footer>
 
     <script src="js/scripts.js"></script>
