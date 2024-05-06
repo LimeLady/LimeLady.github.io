@@ -6,8 +6,221 @@ body {
 }
 h1 {
     color: #333;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 0 10px;
 }
-#countdown {
-    font-size: 24px;
-    color: #ff4500;
+
+nav a:hover, nav a:focus {
+    color: #555;
+    background-color: transparent;
+}
+
+section {
+    /* background: #ffffff; */
+    padding: 40px;
+    margin: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 6px rgba(0,0,0,0.1); */
+    width: 80%;
+    max-width: 960px;
+}
+
+.section-content {
+    width: 100%; /* Use the full section width for content */
+}
+
+footer {
+    margin-top: auto;
+    width: 100%;
+}
+
+.project {
+    display: flex;
+    flex-direction: row; /* Ensures side-by-side arrangement */
+    align-items: center; /* Align items at the start of the flex container */
+    margin-bottom: 60px; /* Increased space between projects */
+    background-color: #fff6ef;
+    padding: 20px;
+    /* border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); */
+}
+
+.project-image {
+    width: 40%;
+    max-width: 400px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.project-text {
+    width: 60%;
+    flex-grow: 1; /* Allows the text section to fill any remaining space */
+}
+
+.project-text h3 {
+    margin-top: 0;
+}
+
+.project p {
+    text-align: justify;
+}
+
+#partners {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px 0;
+
+}
+
+
+.slide img {
+    width: 100%; /* Images should fit their containers */
+    display: block;
+}
+
+#partners {
+    display: flex;
+    justify-content: center;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+#welcome {
+    display: flex;
+    text-align: justify; /* justify the text */
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid-item {
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 5px;
+    width: 175px; /* set a fixed width */
+    height: 175px; /* set a fixed height */
+    overflow: hidden; /* hide any part of the image that overflows the container */
+    background: white;
+}
+
+.grid-item img {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down; /* scale the image to fit its container */
+    transform: scale(0.8); /* set the initial scale to 1 */
+    object-position: center; /* center the image */
+}
+
+
+.hover-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.hover-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    text-wrap: wrap;
+    font-size: 12.5px;
+    visibility: hidden;
+    transition: visibility 0.3s;
+    /* border-radius: 10px; */
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgba(197, 195, 195, 0.9); /* gray translucent background */
+}
+
+.grid-row {
+    margin: 0px;
+    padding: 0px;
+    /* This class does nothing */
+}
+
+.grid-item:hover .hover-text {
+    visibility: visible;
+}
+
+.section-content img.profile-image {
+    width: 200px; /* adjust as needed */
+    height: auto; /* maintain aspect ratio */
+    border-radius: 5%; /* round the corners */
+    margin-right: 20px; /* space between the image and the text */
+}
+
+.zoomed {
+    transform: scale(2.75); /* adjust as needed */
+    transition: transform 0.5s ease-in-out; /* smooth transition */
+
+}
+
+.carousel {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.arrow {
+    background: none;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    color: #fff; /* white color */
+    background-color: rgba(93, 93, 93, 0.3); /* semi-transparent black background */
+    padding: 3px; /* space around the arrow */
+    border-radius: 5%; /* rounded corners */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* text shadow */
+}
+
+.left-arrow {
+    left:-15px;
+}
+
+.right-arrow {
+    right: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.magnify-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    display: none;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.image-container:hover .magnify-icon {
+    display: block;
 }
