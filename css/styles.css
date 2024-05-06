@@ -69,8 +69,10 @@ footer {
     flex-direction: row; /* Ensures side-by-side arrangement */
     align-items: center; /* Align items at the start of the flex container */
     margin-bottom: 10px; /* Increased space between projects */
-    background-color: #fff6ef;
+    background-color: #ffffff;
     padding: 20px;
+    border-radius: 5px;
+
     /* border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1); */
 }
@@ -164,6 +166,12 @@ footer {
 #about {
     display: flex;
     justify-content: center;
+    text-align: justify;
+}
+
+#welcome {
+    display: flex;
+    text-align: justify; /* justify the text */
 }
 
 .grid-container {
