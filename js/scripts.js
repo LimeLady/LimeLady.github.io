@@ -36,11 +36,11 @@ document.querySelectorAll('.project-image').forEach(function(image) {
 
 var images = [
     
-    'images/projects/Dashboard screenshot 2.jpg',
-    'images/projects/Dashboard screenshot.jpg',
-    'images/projects/Dashboard screenshot 3.png',
-    'images/projects/Dashboard screenshot 4.png',
-    'images/projects/Dashboard screenshot 5.png',
+    'images/Projects/Dashboard screenshot 2.jpg',
+    'images/Projects/Dashboard screenshot.jpg',
+    'images/Projects/Dashboard screenshot 3.png',
+    'images/Projects/Dashboard screenshot 4.png',
+    'images/Projects/Dashboard screenshot 5.png',
     // add more image paths as needed
 ];
 
